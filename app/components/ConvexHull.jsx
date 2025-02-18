@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useState, useRef } from 'react';
-import { FaPlay, FaPause, FaStop, FaPlus, FaTimes, FaSpinner, FaRedo } from 'react-icons/fa';
-import { IoReload } from 'react-icons/io5';
+import { FaPlay, FaPause, FaStop, FaPlus, FaTimes, FaRedo, FaCross } from 'react-icons/fa';
+import { RxCross2 } from "react-icons/rx";
 
 const ConvexHullVisualizer = () => {
   const [points, setPoints] = useState([]);
@@ -56,8 +56,9 @@ const ConvexHullVisualizer = () => {
   };
 
   const handleSpeedChange = (newSpeed) => {
+    // newSpeed = 1000 - (newSpeed - 100)
     setSpeed(newSpeed);
-    animationControlRef.current.speed = newSpeed;
+    animationControlRef.current.speed = 1000 - (newSpeed - 100);
   };
 
   const handlePauseResume = () => {
@@ -89,7 +90,7 @@ const ConvexHullVisualizer = () => {
     setHull([]);
     setAnalyzedPoints([]);
     animationControlRef.current.isPaused = false;
-    animationControlRef.current.speed = speed;
+    animationControlRef.current.speed = 1000 - (speed - 100);
     setIsPaused(false);
 
     const startPoint = points.reduce((min, p) =>
@@ -268,7 +269,7 @@ const ConvexHullVisualizer = () => {
             value={speed}
             onChange={(e) => handleSpeedChange(parseInt(e.target.value, 10))}
           />
-          <span className='ml-2'>Speed: {speed}ms</span>
+          <span className='ml-2 flex items-center'>Speed: {speed/100}X </span>
         </div>
 
       <div className="flex gap-4 mt-6 justify-end items-center">
