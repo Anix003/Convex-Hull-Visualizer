@@ -149,6 +149,7 @@ const ConvexHullVisualizer = () => {
     setBasePoint(null);
     setIsAnimating(false);
     setIsPaused(false);
+    setIsClear(false);
     animationControlRef.current.isPaused = false;
 
   };
