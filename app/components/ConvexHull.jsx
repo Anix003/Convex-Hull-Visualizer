@@ -15,8 +15,10 @@ const ConvexHullVisualizer = () => {
   const [isPaused, setIsPaused] = useState(false);
   const [isDesabled, setIsDisabled] = useState(false);
   const [isClear, setIsClear] = useState(false);
-  
-  const clearRef = useRef({isClear: false});
+  const [value, setValue] = useState(50);
+  const [isHovered, setIsHovered] = useState(false);
+
+  const clearRef = useRef({ isClear: false });
   const pausePromiseResolveRef = useRef(null);
   const animationControlRef = useRef({
     isPaused: false,
@@ -258,19 +260,21 @@ const ConvexHullVisualizer = () => {
       </div>
 
       <div className="w-full flex items-center mt-6">
-          <input
-            type="range"
-            name="speed"
-            id="hullSpeed"
-            className="w-1/2"
-            min={100}
-            max={1000}
-            step={10}
-            value={speed}
-            onChange={(e) => handleSpeedChange(parseInt(e.target.value, 10))}
-          />
-          <span className='ml-2 flex items-center'>Speed: {speed/100}X </span>
-        </div>
+        <input
+          type="range"
+          name="speed"
+          id="hullSpeed"
+          className="w-1/2 "
+          min={100}
+          max={1000}
+          step={10}
+          value={speed}
+          onChange={(e) => handleSpeedChange(parseInt(e.target.value, 10))}
+        />
+        <span className='ml-2 flex items-center'>Speed: {speed / 100}X </span>
+      </div>
+
+      
 
       <div className="flex gap-4 mt-6 justify-end items-center">
         {/* <button 
@@ -280,18 +284,18 @@ const ConvexHullVisualizer = () => {
         >
           <FaPlus /> Random Points
         </button> */}
-        
+
         {!isClear && <button
           onClick={clearAll}
           disabled={points.length < 1}
           className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 flex items-center gap-2 disabled:bg-gray-400 disabled:cursor-not-allowed"
         >
           <FaTimes /> Clear
-        </button>}        
+        </button>}
         {isDesabled && (
           <button
             onClick={analyzePoints}
-            disabled={points.length < 3 || !isAnimating}
+            disabled={isClear || !isAnimating}
             className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center gap-2"
           >
             <FaRedo /> Restart
