@@ -115,9 +115,32 @@ Give a ⭐️ if this project helped you!
 
 Questions? Comments? Suggestions? We'd love to hear from you!
 
-- 📧 Email: anish.bar.dev@gmail.com
-- 🐦 Twitter: [Anish Bar](https://twitter.com/bar_anish)
-- 💻 GitHub: [Anish Bar](https://www.linkedin.com/in/anishbar/)
+<div align="center"> 
+  <a href="mailto:anish.bar.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
+  <a href="https://linkedin.com/in/anishbar03" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://x.com/@bar_anish" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://facebook.com/anish.bar.9" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-0077B5?style=for-the-badge&logo=facebook&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://medium.com/@anishbar1998" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://instagram.com/anishbar2003" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-dd2a7b?style=for-the-badge&logo=instagram&logoColor=white" target="_blank" />
+  </a>
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/Youtube-rgb(235, 27, 27)?style=for-the-badge&logo=youtube&logoColor=white" target="_blank" />
+  </a>
+  <a href="#" target="_blank">
+     <img src="https://img.shields.io/badge/Portfolio-833AB4?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" />
+  </a>
+</div>
 
 ---
 
