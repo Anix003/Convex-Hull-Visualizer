@@ -8,7 +8,7 @@
 
 Welcome to the most awesome Convex Hull Visualizer ever! This interactive tool helps you understand and visualize the convex hull algorithm in action. Watch in real-time as the algorithm finds the smallest convex polygon that contains all your points! 
 
-![Convex Hull Demo](public\Preview.png)
+![Convex Hull Demo](/public/Preview.png)
 
 ## ✨ Features
 
