@@ -115,13 +115,13 @@ Give a ⭐️ if this project helped you!
 
 Questions? Comments? Suggestions? We'd love to hear from you!
 
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: [@yourusername](https://twitter.com/yourusername)
-- 💻 GitHub: [yourusername](https://github.com/yourusername)
+- 📧 Email: anish.bar.dev@gmail.com
+- 🐦 Twitter: [Anish Bar](https://twitter.com/bar_anish)
+- 💻 GitHub: [Anish Bar](https://www.linkedin.com/in/anishbar/)
 
 ---
 
-Made with ❤️ and a lot of ☕ by [Your Name]
+Made with ❤️ and a lot of ☕ by Anish Bar
 
 Remember to ⭐ this repo if you found it helpful!
 
