@@ -1,8 +1,8 @@
 # 🌟 Interactive Convex Hull Visualizer 🌟
 
-[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg)](https://reactjs.org/)
+[![Made with React](https://img.shields.io/badge/Made%20with-NextJs-61DAFB.svg)](https://nextjs.org/)
 [![Powered by JavaScript](https://img.shields.io/badge/Powered%20by-JavaScript-F7DF1E.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Styled with Tailwind](https://img.shields.io/badge/Styled%20with-Tailwind-38B2AC.svg)](https://tailwindcss.com/)
+[![Styled with Tailwind](https://img.shields.io/badge/Styled%20with-TailwindCSS-38B2AC.svg)](https://tailwindcss.com/)
 
 ## 🎯 Overview
 
@@ -64,11 +64,11 @@ Our visualizer uses an intuitive color scheme to help you understand the algorit
 ## 🎮 How to Use
 
 1. 📍 Click anywhere on the canvas to add points
-2. 🎲 Use the "Random Points" button to add random points
-3. ▶️ Click "Start" to begin the visualization
-4. ⏯️ Use Pause/Resume to control the animation
-5. 🎚️ Adjust the speed slider to control animation speed
-6. 🔄 Click "Clear" to reset everything
+<!-- 2. 🎲 Use the "Random Points" button to add random points -->
+2. ▶️ Click "Start" to begin the visualization
+3. ⏯️ Use Pause/Resume to control the animation
+4. 🎚️ Adjust the speed slider to control animation speed
+5. 🔄 Click "Clear" to reset everything
 
 ## 🧮 The Algorithm
 
