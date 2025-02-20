@@ -72,7 +72,7 @@ Our visualizer uses an intuitive color scheme to help you understand the algorit
 
 ## 🧮 The Algorithm
 
-The visualizer implements the Gift Wrapping algorithm (also known as Jarvis March) to find the convex hull. Here's how it works:
+The visualizer implements the Brute Force Convex Hull algorithm to find the convex hull. Here's how it works:
 
 1. 🔍 Find the leftmost point
 2. 🔄 For each point, find the most counterclockwise point
@@ -81,7 +81,7 @@ The visualizer implements the Gift Wrapping algorithm (also known as Jarvis Marc
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React
+- ⚛️ Next Js
 - 🎨 Tailwind CSS
 - 🎵 Web Audio API
 - 📦 React Icons
