@@ -148,4 +148,4 @@ Made with ❤️ and a lot of ☕ by Anish Bar
 
 Remember to ⭐ this repo if you found it helpful!
 
-<p align="right"> <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Anix003/Convex-Hull-Visualizer&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false" alt="anix003" /> </p>
+<p align="right"> <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Anix003&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false" alt="anix003" /> </p>
